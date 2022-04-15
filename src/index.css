@@ -1,21 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
-:root{
-    --MainBg : hsl(217, 28%, 15%);
-    --FooterBg: hsl(216, 53%, 9%);
-    --InputBg : hsl(217, 28%, 15%);
-    --TestBg: hsl(219, 30%, 18%);
-    --White: hsl(0, 0%, 100%);
-    --Cyan : hsl(176, 68%, 64%);
-    --Blue: hsl(198, 60%, 50%);
-    --Light: hsl(0, 100%, 63%);
+:root {
+  --MainBg: hsl(217, 28%, 15%);
+  --FooterBg: rgb(11, 21, 35);
+  --InputBg: hsl(217, 28%, 13%);
+  --TestBg: hsl(219, 30%, 18%);
+  --White: hsl(0, 0%, 100%);
+  --Cyan: hsl(176, 68%, 64%);
+  --Blue: hsl(198, 60%, 50%);
+  --Light: hsl(0, 100%, 63%);
 }
 
-body{
-    margin: 0;
-    padding:0;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: var(--White);
-    background-color: var(--MainBg);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: var(--White);
+  background-color: var(--MainBg);
+}
+h1,
+h2,
+h3,
+button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+.Logo {
+  cursor: pointer;
+}
+.Logo:hover {
+  opacity: 0.9;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    padding: 0;
+  }
+  .Logo {
+    transform: scale(0.8);
+  }
 }
