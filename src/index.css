@@ -16,5 +16,6 @@ body{
     padding:0;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    background-color: var(--MainBackGround);
+    color: var(--White);
+    background-color: var(--MainBg);
 }
