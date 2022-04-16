@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
 :root {
-  --MainBg: hsl(217, 28%, 15%);
-  --FooterBg: rgb(11, 21, 35);
+  --MainBg: hsl(217, 27%, 15%);
+  --FooterBg: hsl(215, 52%, 9%);
   --InputBg: hsl(217, 28%, 13%);
   --TestBg: hsl(219, 30%, 18%);
   --White: hsl(0, 0%, 100%);
@@ -28,6 +28,9 @@ button {
 }
 .Logo {
   cursor: pointer;
+}
+.Small {
+  transform: scale(0.6);
 }
 .Logo:hover {
   opacity: 0.9;
